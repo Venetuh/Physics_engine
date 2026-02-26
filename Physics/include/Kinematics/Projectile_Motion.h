@@ -11,7 +11,7 @@ private:
     double toRadians(double degrees) const;
 
 public:
-    ProjectileMotion(double velocity, double launchAngle, double displacementY, double gravity = 9.81);
+    Projectile(double velocity, double launchAngle, double displacementY, double gravity = 9.81);
 
     void calculate() const;
 };
