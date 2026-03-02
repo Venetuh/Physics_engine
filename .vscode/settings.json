@@ -1,4 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/projects/c++projects/PHysicengine/Physics",
+    "cmake.sourceDirectory": "C:/projects/c++projects/PhysicsEngine",
     "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
 }
