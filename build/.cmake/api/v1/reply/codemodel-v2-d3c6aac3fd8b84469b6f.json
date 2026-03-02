@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "physics_app::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-physics_app-Debug-47da7fb2e6f2950ae8b1.json",
+					"jsonFile" : "target-physics_app-Debug-4f110e8681e1d812b351.json",
 					"name" : "physics_app",
 					"projectIndex" : 0
 				}
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/projects/c++_projects/Physics/build",
-		"source" : "C:/projects/c++_projects/Physics"
+		"build" : "C:/projects/c++projects/PHysicengine/build",
+		"source" : "C:/projects/c++projects/PHysicengine/Physics"
 	},
 	"version" : 
 	{
