@@ -10,11 +10,10 @@ private:
     double g;
     double dispY;
     double dispX;
-    double time;
 public:
     Projectile(double initialVelocity, double launchAngle, double displacementY, double gravity);
-
-    void calculate();
+    void update(double dt) override; 
+    void update();
 };
 
 #endif

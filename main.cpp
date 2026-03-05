@@ -4,17 +4,27 @@
 
 using namespace std;
 
-int main()
-{
-
-}
-
-int ValidInputInt(){
-    int choice;
-    while (!(cin >> choice)) {
-        cout << "Invalid input. Please enter a valid integer: ";
+double ValidInputDouble(){
+    double input;
+    while (!(cin >> input)) {
+        cout << "Invalid input. Please enter a valid double: ";
         cin.clear(); // Clear the error flags
         cin.ignore( 1000, '\n');  // Ignore/discard the previous invalid input in the buffer up to the newline character
     }
-    return choice;
+    return input;
 }
+
+int main()
+{
+    double v0 = ValidInputDouble();
+    double g = 9.8;
+    double angle = 55;
+    double dispY = 0;
+
+    Projectile* ball = new Projectile(v0, g, angle, dispY);
+    ball->update();
+    cout << "Position: (" << ball->getPos().x << ", " << ball->getPos().y << ")" << endl;
+    
+}
+
+
